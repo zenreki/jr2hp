@@ -6,4 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Auth0\\Login\\Auth0Controller' => $vendorDir . '/auth0/login/src/controllers/Auth0Controller.php',
+    'Auth0\\Login\\facade\\Auth0' => $vendorDir . '/auth0/login/src/facade/Auth0.php',
 );

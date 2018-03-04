@@ -6,4 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Auth0\\Login\\' => array($vendorDir . '/auth0/login/src'),
 );

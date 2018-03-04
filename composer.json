@@ -1,5 +1,8 @@
 {
-  "require": {
-    "auth0/login": "5.0.*"
-  }
+    "name": "chris_2/jr2hp",
+    "type": "project",
+    "require": {
+        "php": "7.2.*",
+        "auth0/login": "^5.0"
+    }
 }
